@@ -14,7 +14,7 @@ let package = Package(
     ],
   dependencies: [
     .package(url: "https://github.com/pointfreeco/swift-html.git", from: "0.3.0"),
-    .package(url: "https://github.com/IBM-Swift/Kitura.git", .upToNextMinor(from: "2.5.0")),
+    .package(url: "https://github.com/IBM-Swift/Kitura.git", .upToNextMinor(from: "2.9.0")),
     ],
   targets: [
     .target(
